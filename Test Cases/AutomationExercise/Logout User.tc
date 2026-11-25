@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AutomationExercise Test Case 4 - Logout User</description>
+   <name>Logout User</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Linh Nguyen</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Linh Nguyen</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c5bc16ec-af5c-439c-8563-5d451fde6218</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c5bc16ec-af5c-439c-8563-5d451fde6218</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>362e2933-99c4-49d3-82d8-7f372b75660d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67591fea-8736-401a-bd08-71b2342842d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96f5a091-32b5-4a3b-b2b1-c17448404cdc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'automationexercise1@example.com'</defaultValue>
+      <description></description>
+      <id>67591fea-8736-401a-bd08-71b2342842d8</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123!'</defaultValue>
+      <description></description>
+      <id>96f5a091-32b5-4a3b-b2b1-c17448404cdc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

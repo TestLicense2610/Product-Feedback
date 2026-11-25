@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Registration-related AutomationExercise test cases.</description>
+   <name>Register Test Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>0</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <origin>STUDIOASSIST</origin>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>88e985ea-14ce-4cc5-8e2e-818390335fd1</testSuiteGuid>
+   <testCaseLink>
+      <guid>e5feb3fe-69bf-4f11-9de5-d52eae2ab256</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AutomationExercise/Register User</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>acfbee34-2259-46dd-887d-97893299bd76</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2770659c-4a86-4d74-9603-88bfc44f42f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aee69a4c-fc33-429c-935b-096ad8881788</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67e8409f-6f69-4bab-ad0a-b8fc85373ddf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AutomationExercise/Register User with existing email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>efcbb6b4-bd74-4a68-afb5-c4870a22402f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c548f70-8462-4f40-a928-5fa8cfac5d37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a1daf52c-17a5-49bf-a255-9a68871a7114</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

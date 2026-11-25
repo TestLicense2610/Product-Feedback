@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AutomationExercise Test Case 5 - Register User with existing email</description>
+   <name>Register User with existing email</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Linh Nguyen</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Linh Nguyen</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c5bc16ec-af5c-439c-8563-5d451fde6218</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c5bc16ec-af5c-439c-8563-5d451fde6218</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db332445-7537-4e90-8256-19e364b53c25</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efcbb6b4-bd74-4a68-afb5-c4870a22402f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c548f70-8462-4f40-a928-5fa8cfac5d37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1daf52c-17a5-49bf-a255-9a68871a7114</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Existing User'</defaultValue>
+      <description></description>
+      <id>efcbb6b4-bd74-4a68-afb5-c4870a22402f</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'automationexercise-existing@example.com'</defaultValue>
+      <description></description>
+      <id>4c548f70-8462-4f40-a928-5fa8cfac5d37</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123!'</defaultValue>
+      <description></description>
+      <id>a1daf52c-17a5-49bf-a255-9a68871a7114</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
