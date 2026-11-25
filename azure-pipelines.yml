@@ -1,0 +1,21 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- checkout: self
+
+- bash: |
+    set -ex
+    docker run -t --rm \
+      -v "$(pwd)":/tmp/project \
+      katalonstudio/katalon \
+      katalonc.sh -projectPath=/tmp/project -browserType="Chrome" \
+        -retry=0 -statusDelay=15 \
+        -testSuiteCollectionPath="Test Suites/AutomationExercise/AutomationExercise Test Suite Collection" \
+        -apiKey="$KATALON_API_KEY"
+  displayName: Run Katalon tests
+  env:
+    KATALON_API_KEY: 6dd9efb4-e571-4af6-b7b0-481ff46d22b3
