@@ -33,6 +33,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>aee69a4c-fc33-429c-935b-096ad8881788</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>acfbee34-2259-46dd-887d-97893299bd76</variableId>
    </variableLinks>
    <variableLinks>
@@ -41,12 +47,13 @@
       <value></value>
       <variableId>2770659c-4a86-4d74-9603-88bfc44f42f8</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>aee69a4c-fc33-429c-935b-096ad8881788</variableId>
-   </variableLinks>
+   <variable>
+      <defaultValue>'Password123!'</defaultValue>
+      <description></description>
+      <id>aee69a4c-fc33-429c-935b-096ad8881788</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
    <variable>
       <defaultValue>'Test User'</defaultValue>
       <description></description>
@@ -60,12 +67,5 @@
       <id>2770659c-4a86-4d74-9603-88bfc44f42f8</id>
       <masked>false</masked>
       <name>email</name>
-   </variable>
-   <variable>
-      <defaultValue>'Password123!'</defaultValue>
-      <description></description>
-      <id>aee69a4c-fc33-429c-935b-096ad8881788</id>
-      <masked>false</masked>
-      <name>password</name>
    </variable>
 </TestCaseEntity>
